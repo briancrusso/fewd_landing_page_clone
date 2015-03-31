@@ -30,10 +30,14 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: LightGray;
 }
+
 ol, ul {
 	list-style: none;
+	display: inline-block;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -46,3 +50,37 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*Navigation Section*/
+.top-navigation {
+	background-color:#fff; 
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.navigation,
+.links {
+	float: right;
+	color: #838994;
+	font-size: 1.04em;
+	margin-top: 1.7em;
+}
+
+li,
+.logo,
+.navigation {
+	display: inline-block;
+	margin-left: 1.563em;
+}
+
+
+
+

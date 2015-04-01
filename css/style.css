@@ -79,10 +79,30 @@ li,
 .top-navigation {
 	display: inline-block;
 	padding: inherit;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 	
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
 img.logo {
 	margin-top: 1em;
+}
+
+li.active {
+	color: #4c5058;
+	font-weight: 600;
+}
+
+a:link,
+a:visited {
+	color: #838994; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #403E3D;
 }
 
 

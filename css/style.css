@@ -64,9 +64,9 @@ table {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
 
-.navigation,
 .links {
 	float: right;
 	color: #838994;
@@ -78,7 +78,7 @@ li,
 .logo,
 .top-navigation {
 	display: inline-block;
-	margin-left: 1.563em;
+	padding: inherit;
 }
 
 img.logo {

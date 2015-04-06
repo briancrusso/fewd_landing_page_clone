@@ -154,10 +154,15 @@ overflow: auto;
 	border-radius: 1.25rem 5rem;	
 	padding: .5rem;
 	border-color: darkgray;
+	width: 1rem;
 }
 
 hr {
 	width:60%;
+}
+
+span.copy {
+	padding-left: 3em;
 }
 
 .cases {

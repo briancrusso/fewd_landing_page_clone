@@ -4,10 +4,7 @@
 */
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 	background-color: white;
@@ -19,20 +16,6 @@ body {
 ol, ul {
 	list-style: none;
 	/* display: inline-block; */
-}
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 .top-navigation {
@@ -232,7 +215,7 @@ span.copy {
 @media only screen and (max-width: 650px) {
 
 	.top-navigation li {
-		font-size: 1em;
+		font-size: .75em;
 		padding: 0 .5em;
 	}
 	img.logo {

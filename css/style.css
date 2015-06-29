@@ -232,7 +232,7 @@ span.copy {
 @media only screen and (max-width: 650px) {
 
 	.top-navigation li {
-		font-size: .25em;
+		font-size: 1em;
 		padding: 0 .5em;
 	}
 	img.logo {
